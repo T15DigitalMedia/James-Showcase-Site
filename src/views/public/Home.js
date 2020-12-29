@@ -2,6 +2,8 @@ import React from 'react';
 import TextRotator from '../../components/textRotator/TextRotator';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGitlab, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import Header from '../../components/header/Header';
+import Footer from '../../components/footer/Footer';
 import HeadShot from '../../assets/images/headshot.jpeg';
 import ProjectBox from '../../components/projectBox/ProjectBox';
 import ContactForm from '../../components/contactForm/ContactForm';
@@ -9,6 +11,7 @@ import ContactForm from '../../components/contactForm/ContactForm';
 const Home = () => {
     return ( 
         <>
+            <Header />
             <section className="section header-bg-img h-100vh" id="home">
                 <div className="bg-overlay"></div>
                 <div className="header-table">
@@ -98,6 +101,7 @@ const Home = () => {
             </section>
 
             <ContactForm />
+            <Footer />
         </>
     );
 }
