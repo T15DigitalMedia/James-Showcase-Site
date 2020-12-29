@@ -7,8 +7,10 @@ const Header = () => {
             <div className="container">
 
                 <span className="navbar-brand pt-0 logo">
-                    <img src="images/logo.png" alt="" className="img-fluid logo-light"/>
-                    <img src="images/logo-dark.png" alt="" className="img-fluid logo-dark"/>
+                    <h1 className="img-fluid logo-light">JT</h1>
+                    <h1 className="img-fluid logo-dark text-dark">JT</h1>
+                    {/* <img src="images/logo.png" alt="" className="img-fluid logo-light"/>
+                    <img src="images/logo-dark.png" alt="" className="img-fluid logo-dark"/> */}
                 </span>
 
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">

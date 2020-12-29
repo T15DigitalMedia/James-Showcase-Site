@@ -21,7 +21,7 @@ const Footer = () => {
                                     </a>
                                 </li>
                             </ul>
-                            <p className="text-muted mb-0"> 2018 - 2020 &copy; Kerri. Design by SRBThemes.</p>
+                            <p className="text-muted mb-0"> 2020 - {(new Date().getFullYear())} &copy; T15DigitalMedia. Design by SRBThemes.</p>
                         </div>
                     </div>
                 </div>

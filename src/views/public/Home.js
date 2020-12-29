@@ -7,6 +7,7 @@ import Footer from '../../components/footer/Footer';
 import HeadShot from '../../assets/images/headshot.jpeg';
 import ProjectBox from '../../components/projectBox/ProjectBox';
 import ContactForm from '../../components/contactForm/ContactForm';
+import T15Digital from '../../assets/images/t15digital.png';
 
 const Home = () => {
     return ( 
@@ -23,9 +24,9 @@ const Home = () => {
                                         <h4 className="text-white first-title mb-4">Welcome</h4>
                                         <h1 className="header-name text-white text-capitalize mb-0">I'M <span className="simple-text-rotate font-weight-bold"><TextRotator items={['James Tinker', 'A Web Developer.']} /></span></h1>
                                         <p className="text-white mx-auto header-desc mt-4">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
-                                        <div className="mt-4 pt-2">
+                                        {/* <div className="mt-4 pt-2">
                                             <a href="#" className="btn btn-outline-custom btn-round">Download Cv</a>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>
@@ -77,24 +78,30 @@ const Home = () => {
                         <div className="col-lg-12">
                             <div className="text-center">
                                 <h2>My <span className="font-weight-bold">Projects</span></h2>
-                                <p className="text-muted mx-auto section-subtitle mt-3">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+                                <p className="text-muted mx-auto section-subtitle mt-3">Below is a list of work, clicking any box will take you to the website it is related too.</p>
                             </div>
                         </div>
                     </div>
                     <div className="row mt-5 ">
                         <ul className="col list-unstyled list-inline mb-0 text-uppercase work_menu" id="menu-filter">
+                            {/* eslint-disable-next-line */}
                             <li className="list-inline-item"><a className="active" data-filter="*">All</a></li>
-                            <li className="list-inline-item"><a className="" data-filter=".seo">Seo</a></li>
+                            {/* <li className="list-inline-item"><a className="" data-filter=".seo">Seo</a></li>
                             <li className="list-inline-item"><a className="" data-filter=".webdesign">Webdesign</a></li>
                             <li className="list-inline-item"><a className="" data-filter=".WORK">WORK</a></li>
-                            <li className="list-inline-item"><a className="" data-filter=".wordpress">Wordpress</a></li>
+                            <li className="list-inline-item"><a className="" data-filter=".wordpress">Wordpress</a></li> */}
                         </ul>
                     </div>
                 </div>
                 <div className="container">
                     <div className="row mt-4 work-filter">
 
-                        <ProjectBox image="images/works/6.jpg" title="Project Title" category="Category" tags="development webdesign"/>
+                        <ProjectBox image={T15Digital} 
+                            title="Personal Website" 
+                            category="ReactJS" 
+                            tags="development webdesign" 
+                            desc="Built for use as a persoanl website to showcase my projects, and a place to be contacted"
+                            url="https://jamestinker.me"/>
 
                     </div>
                 </div>
