@@ -1,14 +1,23 @@
 import './css/App.css';
-import Header from './components/header/Header';
-import Footer from './components/footer/Footer';
+import { useContext } from 'react';
+import { Router } from '@reach/router';
+import { UserContext } from "./providers/UserProvider";
 import Home from './views/public/Home';
+import Admin from './views/private/Admin';
+import SignIn from './components/signIn/SignIn';
 
 function App() {
+  const user = useContext(UserContext);
   return (
     <>
-      <Header/>
-      <Home/>
-      <Footer/>
+      <Router>
+        <Home path="/" />
+        {user ?
+          <Admin path="/admin/*"/>
+        : 
+          <SignIn path="/admin" />
+        } 
+      </Router>
     </>
   );
 }
