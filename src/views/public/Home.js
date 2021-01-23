@@ -8,6 +8,7 @@ import HeadShot from '../../assets/images/headshot.jpeg';
 import ProjectBox from '../../components/projectBox/ProjectBox';
 import ContactForm from '../../components/contactForm/ContactForm';
 import T15Digital from '../../assets/images/t15digital.png';
+import Resume from '../../assets/pdfs/Resume.pdf';
 
 const Home = () => {
     return ( 
@@ -24,9 +25,9 @@ const Home = () => {
                                         <h4 className="text-white first-title mb-4">Welcome</h4>
                                         <h1 className="header-name text-white text-capitalize mb-0">I'M <span className="simple-text-rotate font-weight-bold"><TextRotator items={['James Tinker', 'A Web Developer.']} /></span></h1>
                                         <p className="text-white mx-auto header-desc mt-4">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
-                                        {/* <div className="mt-4 pt-2">
-                                            <a href="#" className="btn btn-outline-custom btn-round">Download Cv</a>
-                                        </div> */}
+                                        <div className="mt-4 pt-2">
+                                            <a href={Resume} className="btn btn-outline-custom btn-round" target="_blank" rel="noreferrer">Download Resume</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -100,7 +101,7 @@ const Home = () => {
                             title="Personal Website" 
                             category="ReactJS" 
                             tags="development webdesign" 
-                            desc="Built for use as a persoanl website to showcase my projects, and a place to be contacted"
+                            desc="Built for use as a personal website to showcase my projects"
                             url="https://jamestinker.me"/>
 
                     </div>
