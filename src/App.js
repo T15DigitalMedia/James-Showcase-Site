@@ -5,7 +5,7 @@ import Home from './views/public/Home';
 function App() {
   return (
     <>
-      <Router>
+      <Router basepath="/personal-site">
         <Home path="/" />
       </Router>
     </>
