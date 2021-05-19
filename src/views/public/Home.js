@@ -24,7 +24,7 @@ const Home = () => {
                                     <div className="text-center header-content mx-auto">
                                         <h4 className="text-white first-title mb-4">Welcome</h4>
                                         <h1 className="header-name text-white text-capitalize mb-0">I'M <span className="simple-text-rotate font-weight-bold"><TextRotator items={['James Tinker', 'A Web Developer.']} /></span></h1>
-                                        <p className="text-white mx-auto header-desc mt-4">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+                                        <p className="text-white mx-auto header-desc mt-4">I develop websites of all sizes, and I love doing it.</p>
                                         <div className="mt-4 pt-2">
                                             <a href={Resume} className="btn btn-outline-custom btn-round" target="_blank" rel="noreferrer">Download Resume</a>
                                         </div>
@@ -41,7 +41,7 @@ const Home = () => {
                 </div>
             </section>
 
-            <section className="section" id="about">
+            <section className="section bg-light" id="about">
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-6">
@@ -76,13 +76,80 @@ const Home = () => {
                 </div>
             </section>
 
+            <section className="section" id="services">
+                <div className="container">
+                    <div className="row mt-5">
+                        <div className="col-lg-4">
+                            <div className="text-center services-boxes rounded p-4 mt-4">
+                                <div className="services-boxes-icon">
+                                    <i className="mbri-code text-custom display-4"></i>
+                                </div>
+                                <div className="mt-4">
+                                    <h5 className="mb-0">Full Stack Developer</h5>
+                                    <div className="services-title-border"></div>
+                                    <p className="text-muted mt-3">I like to code projects from scratch, and bring ideas into reality in the browser.</p>
+                                    <h5>Languages I Speak:</h5>
+                                    <ul class="p-0" style={{listStyleType: "none"}}>
+                                        <li>Ruby</li>
+                                        <li>HTML5</li>
+                                        <li>CSS/SASS</li>
+                                        <li>Javascript/JQuery</li>
+                                        <li>SQL</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-4">
+                            <div className="text-center services-boxes rounded p-4 mt-4">
+                                <div className="services-boxes-icon">
+                                    <i className="mbri-database text-custom display-4"></i>
+                                </div>
+                                <div className="mt-4">
+                                    <h5 className="mb-0">Student & Mentor</h5>
+                                    <div className="services-title-border"></div>
+                                    <p className="text-muted mt-3">I love to learn just as much as I like to teach. I always want to be building on my experience.</p>
+                                    <h5>Currently Learning:</h5>
+                                    <ul class="p-0" style={{listStyleType: "none"}}>
+                                        <li>ReactJS</li>
+                                        <li>Google Cloud Platform</li>
+                                        <li>NoSQL</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div className="col-lg-4">
+                            <div className="text-center services-boxes rounded p-4 mt-4">
+                                <div className="services-boxes-icon">
+                                    <i className="mbri-hearth text-custom display-4"></i>
+                                </div>
+                                <div className="mt-4">
+                                    <h5 className="mb-0">Hobbies</h5>
+                                    <div className="services-title-border"></div>
+                                    <p className="text-muted mt-3">When I'm not developing, I like to keep active and social.</p>
+                                    <h5>My Passions:</h5>
+                                    <ul class="p-0" style={{listStyleType: "none"}}>
+                                        <li>Soccer</li>
+                                        <li>Hockey</li>
+                                        <li>Lego</li>
+                                        <li>Video Games</li>
+                                        <li>Music</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <section className="section text-center bg-light" id="work">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-lg-12">
                             <div className="text-center">
                                 <h2>My <span className="font-weight-bold">Projects</span></h2>
-                                <p className="text-muted mx-auto section-subtitle mt-3">Below is a list of work, clicking any box will take you to the website it is related too.</p>
+                                <p className="text-muted mx-auto section-subtitle mt-3">Here is a list of recent projects, for more information <a href="mailto:jtinker@t15digitalmedia.ca">email me</a></p>
                             </div>
                         </div>
                     </div>
