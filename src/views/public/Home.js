@@ -121,7 +121,7 @@ const Home = () => {
                         <div className="col-lg-4">
                             <div className="text-center services-boxes rounded p-4 mt-4">
                                 <div className="services-boxes-icon">
-                                    <i className="mbri-hearth text-custom display-4"></i>
+                                    <i className="mbri-setting2 text-custom display-4"></i>
                                 </div>
                                 <div className="mt-4">
                                     <h5 className="mb-0">Tools</h5>
