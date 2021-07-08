@@ -124,16 +124,16 @@ const Home = () => {
                                     <i className="mbri-hearth text-custom display-4"></i>
                                 </div>
                                 <div className="mt-4">
-                                    <h5 className="mb-0">Hobbies</h5>
+                                    <h5 className="mb-0">Tools</h5>
                                     <div className="services-title-border"></div>
-                                    <p className="text-muted mt-3">When I'm not developing, I like to keep active and social.</p>
-                                    <h5>My Passions:</h5>
+                                    <p className="text-muted mt-3">Different application knowledge that helps with coding or process</p>
+                                    <h5></h5>
                                     <ul class="p-0" style={{listStyleType: "none"}}>
-                                        <li>Soccer</li>
-                                        <li>Hockey</li>
-                                        <li>Lego</li>
-                                        <li>Video Games</li>
-                                        <li>Music</li>
+                                        <li>VsCode</li>
+                                        <li>Git</li>
+                                        <li>Datagrip</li>
+                                        <li>Lucidchart</li>
+                                        <li>Jira</li>
                                     </ul>
                                 </div>
                             </div>
