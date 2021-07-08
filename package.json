@@ -2,7 +2,7 @@
   "name": "default_app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://personal-projects34.gitlab.io/personal-site",
+  "homepage": "https://jamestinker.me",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-brands-svg-icons": "^5.15.1",
