@@ -67,7 +67,6 @@ const Home = () => {
                                 <div>
                                     <ul className="mb-0 about-social list-inline mt-4">
                                         <li className="list-inline-item"><a href="https://www.linkedin.com/in/james-tinker/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a></li>
-                                        <li className="list-inline-item"><a href="https://gitlab.com/james_tinker" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGitlab} /></a></li>
                                     </ul> 
                                 </div>
                             </div>
