@@ -67,6 +67,7 @@ const Home = () => {
                                 <div>
                                     <ul className="mb-0 about-social list-inline mt-4">
                                         <li className="list-inline-item"><a href="https://www.linkedin.com/in/james-tinker/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a></li>
+                                        <li className="list-inline-item"><a href="https://gitlab.com/james_tinker" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGitlab} /></a></li>
                                     </ul> 
                                 </div>
                             </div>
@@ -127,7 +128,7 @@ const Home = () => {
                                     <h5 className="mb-0">Tools</h5>
                                     <div className="services-title-border"></div>
                                     <p className="text-muted mt-3">Different application knowledge that helps with coding or process</p>
-                                    <h5></h5>
+                                    <h5>Main Tools:</h5>
                                     <ul class="p-0" style={{listStyleType: "none"}}>
                                         <li>VsCode</li>
                                         <li>Git</li>
