@@ -8,7 +8,7 @@ import { ReactComponent as ReactIcon } from '../../assets/images/skill_icons/rea
 
 const Skills = () => {
     return ( 
-        <section className="section" id="services">
+        <section className="section" id="skills">
             <div class="row justify-content-center">
                 <div className="container">
                     <div class="col-lg-12">

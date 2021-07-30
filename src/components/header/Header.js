@@ -26,6 +26,9 @@ const Header = () => {
                             <AnchorLink className="nav-link" href="#about">About</AnchorLink>
                         </li>
                         <li className="nav-item">
+                            <AnchorLink className="nav-link" href="#skills">Skills</AnchorLink>
+                        </li>
+                        <li className="nav-item">
                             <AnchorLink className="nav-link" href="#work">Projects</AnchorLink>
                         </li>
                         <li className="nav-item">
