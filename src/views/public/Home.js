@@ -5,6 +5,7 @@ import { faGitlab, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import Header from '../../components/header/Header';
 import Footer from '../../components/footer/Footer';
 import Skills from '../../components/skills/Skills';
+import Tools from '../../components/skills/Tools';
 import HeadShot from '../../assets/images/headshot.jpeg';
 import ProjectBox from '../../components/projectBox/ProjectBox';
 import ContactForm from '../../components/contactForm/ContactForm';
@@ -78,6 +79,8 @@ const Home = () => {
             </section>
 
             <Skills />
+
+            <Tools />
 
             <section className="section" id="services">
                 <div className="container">
