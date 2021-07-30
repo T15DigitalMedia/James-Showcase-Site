@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGitlab, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import Header from '../../components/header/Header';
 import Footer from '../../components/footer/Footer';
+import Skills from '../../components/skills/Skills';
 import HeadShot from '../../assets/images/headshot.jpeg';
 import ProjectBox from '../../components/projectBox/ProjectBox';
 import ContactForm from '../../components/contactForm/ContactForm';
@@ -75,6 +76,8 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+
+            <Skills />
 
             <section className="section" id="services">
                 <div className="container">
