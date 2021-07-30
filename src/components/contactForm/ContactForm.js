@@ -20,7 +20,7 @@ const ContactForm = () => {
     }
 
     return ( 
-        <section className="section" id="contact">
+        <section className="section bg-light" id="contact">
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-lg-12">
