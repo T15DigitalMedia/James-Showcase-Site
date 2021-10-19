@@ -2,7 +2,7 @@
   "name": "default_app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://t15digitalmedia.gihub.io/James-Showcase-Site",
+  "homepage": "https://t15digitalmedia.github.io/James-Showcase-Site",
   "dependencies": {
     "-": "^0.0.1",
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
